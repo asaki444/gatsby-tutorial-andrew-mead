@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "../components/Footer";
 
 const IndexPage = ()=>{
 
@@ -10,6 +11,7 @@ const IndexPage = ()=>{
           <h2>
               I am Aditi, a full stack developer in NYC
           </h2>
+          <Footer />
       </div>
   )
 }
