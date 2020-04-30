@@ -1,14 +1,14 @@
 import React from 'react';
-import Link from 'gatsby';
+import {Link} from 'gatsby';
 
 
-const Header = ()=>{
+const Header = () => {
 
     return (
         <header>
             Aditi Develops
             <nav>
-                <ol>
+                <ul>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -21,7 +21,7 @@ const Header = ()=>{
                     <li>
                         <Link to="/about"> About</Link>
                     </li>
-                </ol>
+                </ul>
             </nav>
         </header>
     )
