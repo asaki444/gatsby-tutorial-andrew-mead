@@ -1,11 +1,13 @@
 import React from 'React';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 
 
 const BlogPage = () => {
     return(
+        <Layout>
         <div>
+       
+
             <h1>
              Blog
             </h1>
@@ -13,6 +15,7 @@ const BlogPage = () => {
                 Posts will show up here
             </p>
         </div>
+        </Layout>
     )
 }
 

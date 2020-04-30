@@ -1,18 +1,20 @@
 import React from 'React';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
+
 
 const Contact = ()=>{
     return (
+        <Layout>
         <div>
-
             <h1>
                 Contact Me
             </h1>
             <p>
                follow me at <a href="https://twitter.com/AditiDevelops">@AditiDevelops</a>
                </p>
+           
         </div>
+        </Layout>   
     )
 }
 
