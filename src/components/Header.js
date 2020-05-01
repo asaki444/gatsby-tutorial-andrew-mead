@@ -6,20 +6,22 @@ const Header = () => {
 
     return (
         <header className={headerStyles.header}>
-            Aditi Develops
+            <h1> 
+                <Link to="/" className={headerStyles.title}>Aditi Develops</Link>
+                </h1>
             <nav>
-                <ul>
+                <ul className={headerStyles.nav_list}>
                     <li>
-                        <Link className={headerStyles.link} to="/">Home</Link>
+                        <Link className={headerStyles.nav_item} to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/blog"> Blog</Link>
+                        <Link  className={headerStyles.nav_item}  to="/blog"> Blog</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link className={headerStyles.nav_item}  to="/contact">Contact</Link>
                     </li>
                     <li>
-                        <Link to="/about"> About</Link>
+                        <Link className={headerStyles.nav_item} to="/about"> About</Link>
                     </li>
                 </ul>
             </nav>

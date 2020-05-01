@@ -6,3 +6,22 @@
     padding: 1rem 0 3rem;
 
 }
+
+.title{
+    color: #000;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav_item{
+    margin-right: 1rem;
+    font-size: .9rem;
+    color:gray; 
+
+}
