@@ -5,7 +5,7 @@ import headerStyles from './Header.module.scss';
 const Header = () => {
   
         const data = useStaticQuery(graphql` 
-            query MyQuery {
+            query {
             site{
                 siteMetadata{
                     title
