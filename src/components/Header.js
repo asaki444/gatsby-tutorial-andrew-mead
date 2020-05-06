@@ -13,7 +13,6 @@ const Header = () => {
             }
         }`)
 
-   console.log("data", data);
     return (
         <header className={headerStyles.header}>
             <h1> 
