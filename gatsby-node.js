@@ -1,6 +1,23 @@
-module.exports.onCreateNode(({node, actions}) => {
-    const {create, createNodeField} = actions;
+const path = require('path')
 
-    console.log(node);
-    console.log(JSON.stringify(node,undefined, 4))
-})
+exports.onCreateNode = ({
+    node,
+    actions
+}) => {
+    const {
+        createNode,
+        createNodeField
+    } = actions
+    // Transform the new node here and create a new node or
+
+
+    if (node.internal.type === "MarkdownRemark") {
+        const slug = path.basename(node.fileAbsolutePath, '.md')
+        createNodeField({
+            node,
+            name: 'slug',
+            value: slug
+        })  
+    }
+
+}
