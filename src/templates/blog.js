@@ -3,6 +3,7 @@ import {graphql} from 'gatsby';
 import Layout from '../components/Layout'
 
 
+
 export const query = graphql`
 query (
   $slug: String
