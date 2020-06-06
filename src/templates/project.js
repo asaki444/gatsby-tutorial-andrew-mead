@@ -2,22 +2,8 @@ import React from 'react';
 import {graphql} from 'gatsby';
 import Layout from '../components/Layout'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import projectStyles from './project.module.scss';
 
-
-
-// export const query = graphql`
-// query (
-//   $slug: String
-// ) {
-//   markdownRemark(fields: {slug: {eq: $slug}}) {
-//     frontmatter {
-//       title
-//       date
-//     }
-//     html
-//   }
-// }
-// `
 
 export const query = graphql`
 query($slug: String!){
@@ -42,7 +28,7 @@ const Blog = (props)=> {
       "embedded-asset-block": (node) =>{
         const alt = node.data.target.fields.title['en-US']
         const url = node.data.target.fields.file['en-US'].url;
-         return <img alt={alt} src={url}/>
+         return <img className={projectStyles.projectImg} alt={alt} src={url}/>
       }
     }
   }
