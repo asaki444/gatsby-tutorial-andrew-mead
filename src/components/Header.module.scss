@@ -22,7 +22,8 @@
 .nav_item{
     margin-right: 1rem;
     font-size: .9rem;
-    color:gray; 
+    color:#51ca52; 
+    text-decoration: none;
 
 }
 
@@ -32,4 +33,15 @@
 
 .active-nav-item{
     color: #333;
+}
+
+.img_nav_item{
+    margin-right: 1rem;
+
+  
+      img{
+        height:35px;
+        width: 135px;
+        object-fit: cover;
+      }
 }
