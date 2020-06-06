@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby';
 import headerStyles from './Header.module.scss';
-import img from '../logos/aditi-long-logo.png'
+import img from '../images/aditi-long-logo.png'
 
 const Header = () => {
   
@@ -19,6 +19,11 @@ const Header = () => {
                         <Link  className={headerStyles.nav_item}  
                           activeClassName={headerStyles.activeNavItem}
                         to="/portfolio">Portfolio</Link>
+                    </li>
+                    <li>
+                        <Link  className={headerStyles.nav_item}  
+                          activeClassName={headerStyles.activeNavItem}
+                        to="/resume">Resume</Link>
                     </li>
                     <li>
                         <Link className={headerStyles.nav_item} 

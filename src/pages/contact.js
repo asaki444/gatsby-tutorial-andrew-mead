@@ -11,7 +11,7 @@ const Contact = ()=>{
             </h1>
             <p>
                follow me at <a href="https://twitter.com/AditiDevelops">@AditiDevelops</a>
-               </p>
+            </p>
            
         </div>
         </Layout>   
