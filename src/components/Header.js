@@ -20,6 +20,7 @@ const Header = () => {
                           activeClassName={headerStyles.activeNavItem}
                         to="/portfolio">Portfolio</Link>
                     </li>
+                    
                     <li>
                         <Link  className={headerStyles.nav_item}  
                           activeClassName={headerStyles.activeNavItem}
@@ -27,14 +28,15 @@ const Header = () => {
                     </li>
                     <li>
                         <Link className={headerStyles.nav_item} 
-                          activeClassName={headerStyles.activeNavItem} 
-                        to="/contact">Contact</Link>
-                    </li>
-                    <li>
-                        <Link className={headerStyles.nav_item} 
                         activeClassName={headerStyles.activeNavItem}
                         to="/about"> About</Link>
                     </li>
+                    <li>
+                        <Link className={headerStyles.nav_item} 
+                          activeClassName={headerStyles.activeNavItem} 
+                        to="/contact">Contact</Link>
+                    </li>
+                  
                 </ul>
             </nav>
         </header>
