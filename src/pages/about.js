@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import Layout from '../components/Layout';
 import headshot from '../images/headshot.jpg';
 import aboutStyles from './about.module.scss';
