@@ -7,9 +7,7 @@ const Header = () => {
   
 
     return (
-        <header className={headerStyles.header}>
-
-               
+        <header className={headerStyles.header}>      
             <nav>
                 <ul className={headerStyles.nav_list}>
                     <li>
