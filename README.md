@@ -2,6 +2,6 @@
 
 To run this site, clone this repo, and run gatsby develop.
 
-##Technologies Used
+### Technologies Used
 
 This site uses Gatsby, GraphQL, and Contentful CMS.
